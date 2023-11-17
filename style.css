@@ -1,0 +1,76 @@
+/* Custom Propertys */
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --font: "Outfit", sans-serif;
+}
+
+/* GLOBALES */
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5% /*1rem-> 10px*/;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img{
+    max-width: 100%;
+    
+}
+/* CONTENIDO */
+.contenedor{
+    background-color: var(--Light-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card-qr{
+    width: 34rem;
+    background-color: var(--White);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.qr-image img{
+    border-radius: 1rem;
+}
+
+/* Contenido QR */
+ .contenido-qr{
+    padding: 2rem;
+    line-height: 1.2;
+ }
+
+ .contenido-qr--tittle,
+ .contenido-qr--txt{
+    font-family: var(--font);
+    text-align: center;
+}
+
+.contenido-qr--txt{
+    margin-top: 2rem ;
+    font-size: 1.5rem;
+    color: var(--Grayish-blue);
+ }
+
+
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
