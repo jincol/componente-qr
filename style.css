@@ -70,6 +70,10 @@ img{
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: -4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-top: 1px solid var(--Dark-blue);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
